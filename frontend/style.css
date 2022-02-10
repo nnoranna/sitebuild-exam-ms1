@@ -79,10 +79,10 @@ section {
 }
 
 .button3 {
-    /*position: absolute;
+    position: relative;
     left: 50%;
-    bottom: 40px;
-    transform: translateX(-50%);*/
+    /*bottom: 40px;*/
+    transform: translateX(-50%);
     width: 200px;
     height: 60px;
     background-color: #4343f9;
