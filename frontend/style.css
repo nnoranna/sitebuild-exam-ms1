@@ -34,7 +34,61 @@
   /*End of CSS reset*/
 
 section {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
+    margin: auto;
+    font-family: Poppins;
+}
+
+#page1 {
+    background-color: #efd592;
+}
+
+.button1 {
+    position: absolute;
+    left: 50%;
+    top: 40vh;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #242d38;
+    color: #efd592;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.button2 {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 200px;
+    height: 60px;
+    border: 6px solid #242d38;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+#page2 {
+    background-color: #4343f9;
+}
+
+.button3 {
+    /*position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);*/
+    width: 200px;
+    height: 60px;
+    background-color: #4343f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
 }
