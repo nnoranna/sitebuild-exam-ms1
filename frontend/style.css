@@ -34,9 +34,10 @@
   /*End of CSS reset*/
 
 section {
-    width: 100vw;
+    position: relative;
+    /*width: 100vw;*/
     height: 100vh;
-    /*max-width: 1200px;*/
+    max-width: 1200px;
     margin: auto;
     font-family: Poppins;
 }
@@ -48,8 +49,8 @@ section {
 .button1 {
     position: absolute;
     left: 50%;
-    top: 40vh;
     transform: translateX(-50%);
+    top: 35%;
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -79,9 +80,9 @@ section {
 }
 
 .button3 {
-    position: relative;
+    position: absolute;
     left: 50%;
-    /*bottom: 40px;*/
+    top: 50%;
     transform: translateX(-50%);
     width: 200px;
     height: 60px;
